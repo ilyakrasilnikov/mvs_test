@@ -129,7 +129,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	PAINTSTRUCT ps;
 	HDC hdc;
 
-	switch (message)
+	switch (message) //commit 2
 	{
 	case WM_COMMAND:
 		wmId    = LOWORD(wParam);
